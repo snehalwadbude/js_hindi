@@ -74,6 +74,34 @@ console.log(typeof ids);
 
 
 
+//++++++++++++++++++++++++++++++++++++++++
+
+//stack (premitive) , heap (non premitive)
+//stack memory me jo variable declare kiya vaha pr copy milta hai and  ||  heap ke andar main jo value hai uspar kam hota hai   (original value  ka reference)
+
+let myyoutubename = "snehallll" // ye jaegi stack ke ander
+
+let anothername = myyoutubename
+
+anothername= "chai aur code"
+
+console.log(anothername)
+console.log(myyoutubename)
+// upar me original myyoutubename thodi na change hua uski jo copy thi anothername usime hi toh changes aae na
+
+let user1 = {
+    emial: "sp@google.com",
+    upi : "2345"
+}
+
+let user2= user1
+
+user2.email = "sp@google.com" // " . "  jo hai wo values access krne ke liye lagaya jata hai
+
+console.log(user1);
+console.log(user2);
+
+
 
 
 
