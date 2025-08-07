@@ -36,3 +36,25 @@ console.log( Object.keys(tinderuser)); //yahapr hame sari keys ka array milega t
 console.log(Object.values(tinderuser));
 console.log(Object.entries(tinderuser)); //har ek entry ka array bnn jata hai bss
 
+
+
+
+
+const course = {
+    coursename:"js hindi",
+    price:"999",
+    courseteacher :"hitesh"
+
+}
+
+// console.log(course.coursename);        //this is ok ok but , for making our code more clean hume thodi mehanat toh krni pdegi nahh
+
+const {courseteacher} = course // destructuree   //=========const {courseteacher :teacher} = course   maine courseinstructor ko teacher ka dusra naam de diya haii
+console.log(courseteacher);//yahapr hume course.courseteacher nhi likhna pdaa
+
+
+
+// +++++++++++++++++++++++++++++++++++++++++++   API  == jb bhiaapko apna kam kisi aur pr thopana ho toh wo api hota haii, aap chinta mat kro kaise hoga , wo toh ho hi jaega
+
+
+
