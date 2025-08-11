@@ -1,5 +1,1 @@
-(()=>{
-
-    console.log( `DB CONNECTED TWO`);
-    
-})();
+console.log(`user power ${power}`)
